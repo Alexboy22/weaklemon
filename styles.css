@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  color: white;
+  font-size: 1.0vw;
+}
+
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.banner-img {
+  display:none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 1px;
+}
+
+.container {
+  margin: 0px 3em 0px 3em;
+  background-image: url("/images/hero-quest-3.png");
+  background-size:cover;
+  border-radius: 25px;
+}
+
+.sound {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 70px;
+  background: darkred;
+  color: white;
+  margin: 15px;
+  display: inline-block;
+  width: 23%;
+}
+
+button {
+  margin: 0.5em;
+  width: 10%;
+  background: darkred;
+  border: 2px solid black;
+  border-radius: 70px;
+}
+
+audio { 
+  width: 200px; 
+  box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+  border-radius: 90px;
+  transform: scale(1.05);
+}
